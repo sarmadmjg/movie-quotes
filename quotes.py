@@ -4,6 +4,7 @@ import random
 
 fileName = 'data.json'
 questionsPerGame = 4
+blankSequence = '___'
 
 
 
@@ -74,13 +75,18 @@ def play(allQuestions, tries, questionsPerGame):
   i = 0
 
   while(tries >= 1 and i < len(questions)):
+    quote = questions[i]['quote']
+    answer = questions[i]['answer']
+
     print()
-    print(questions[i]['quote'])
+    print(quote)
     userAnswer = input('what goes in the blank? ')
 
     # strip whitespace and convert to lowercase to make the answers case insensitive
-    if userAnswer.lower().strip() == questions[i]['answer'].lower().strip():
-      print('Correct!\n')
+    if userAnswer.lower().strip() == answer.lower().strip():
+      print('Correct!')
+      print(quote.replace(blankSequence, answer))
+      print()
       i += 1                   # Go to the next blank, if any
       continue
     else:
