@@ -78,7 +78,7 @@ def play(allQuestions, tries, questionsPerGame):
     quote = questions[i]['quote']
     answer = questions[i]['answer']
 
-    print()
+    print('\nYou have ' + str(tries) + ' tries left.\n')
     print(quote)
     userAnswer = input('what goes in the blank? ')
 
