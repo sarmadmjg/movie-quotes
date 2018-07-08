@@ -1,0 +1,64 @@
+{
+  "questions": {
+    "easy": [
+      {
+        "quote": "\"I'm ___ of the world!\" Titanic, 1997",
+        "answer": "king"
+      },
+      {
+        "quote": "\"___, we have a problem.\" Apollo 13, 1995",
+        "answer": "Houston"
+      },
+      {
+        "quote": "\"May the ___ be with you.\"",
+        "answer": "Force"
+      },
+      {
+        "quote": "\"Bond. ___ Bond.\" Dr. No, 1962",
+        "answer": "James"
+      }
+    ],
+    "medium": [
+      {
+        "quote": "\"Go ahead, ___ my day.\" Sudden Impact, 1983",
+        "answer": "make"
+      },
+      {
+        "quote": "\"You ___ to me?\" Taxi Driver, 1976",
+        "answer": "talking"
+      },
+      {
+        "quote": "\"E.T. ___ home.\" E.T. The Extra-Terrestrial, 1982",
+        "answer": "phone"
+      },
+      {
+        "quote": "\"You can't ___ the truth!\" A Few Good Men, 1992",
+        "answer": "handle"
+      },
+      {
+        "quote": "\"I'll be ___.\" The Terminator, 1984",
+        "answer": "back"
+      }
+    ],
+    "hard": [
+      {
+        "quote": "\"Mama always said life was like a box of ___. You never know what you're gonna get.\" Forrest Gump, 1994",
+        "answer": "chocolates"
+      },
+      {
+        "quote": "\"I see ___ people.\" The Sixth Sense, 1999",
+        "answer": "dead"
+      },
+      {
+        "quote": "\"I love the smell of ___ in the morning.\" Apocalypse Now, 1979",
+        "answer": "napalm"
+      },
+      {
+        "quote": "\"I'm going to make him an offer he can't ___.\" The Godfather, 1972",
+        "answer": "refuse"
+      }
+    ]
+  },
+  "levels": [ "easy", "medium", "hard" ]
+}
+
