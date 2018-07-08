@@ -3,7 +3,7 @@ import random
 
 
 fileName = 'data.json'
-questionsPerGame = 3
+questionsPerGame = 4
 
 
 
